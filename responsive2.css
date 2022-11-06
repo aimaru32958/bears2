@@ -1,0 +1,44 @@
+@media(max-width:1000px){
+    body {
+      font-family:"Lucida Grande";
+    }
+
+    .aimaru {
+    height: 300px ; 
+    }
+
+    .B1 {
+      padding: 35px 50px ;
+    }
+
+    .yumeanpan {
+      height: 300px ; 
+      }
+
+    .B2 {
+      padding: 25px 40px 5px 60px ;
+    }
+
+    .active {
+      height: 1200px ;
+    }
+
+    .CP {
+      height: 140px ;
+      font-size: 20px ;
+    }
+
+    .SP1 {
+      height: 110px ;
+      font-size: 20px ;
+    }
+
+    .SP {
+      height: 110px ;
+      font-size: 20px ;
+    }
+
+    footer {
+      height: 160px ;
+    }
+}
