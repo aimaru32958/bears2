@@ -1,0 +1,467 @@
+body {
+    background-color: rgb(199, 220, 199);
+    font-family:"UD デジタル 教科書体 N-B";
+}
+
+header {
+    width: 1170px ;
+    margin: 0 auto ;
+    height: 50px;  
+    margin-bottom: -20px ; 
+    
+}
+
+.header1 {
+    width: 1170px ;
+    margin: 0 auto ;
+    position:fixed;
+    z-index:10;
+    background-color: rgba(112, 111, 112,0.9);
+}
+
+.H1 {
+    float:left;
+    color: white;
+    font-size: 20px ;
+    line-height: 50px ;
+    padding-left: 50px ;
+    margin: 0px ;
+}
+
+.H2 {
+    float:left;
+    color: white;
+    line-height: 50px ;
+    padding-left: 50px ;
+    margin: 0px ;
+    text-decoration: none;
+}
+
+.H2:hover {
+    cursor: pointer;
+}
+
+.H3 {
+    float:right;
+    color: white;
+    background-color: rgb(60, 60, 60);
+    display:inline-block;
+    padding: 0px 15px ;
+    line-height: 50px ;
+    margin: 0px  50px  0px  0px ;
+}
+
+.H3:hover {
+    cursor: pointer;
+}
+
+.title {
+    width: 1170px ;
+    margin: 0 auto ;
+    text-align: center ;
+    position:relative;
+  }
+
+.A1 {
+    color:white;
+    background-color: green;
+    font-size: 75px ;
+    line-height: 200px ;
+}
+
+.A11 {
+    width: 150px ;
+    position:absolute;
+     top: 15px ;  
+     left: 200px ;
+
+}
+
+.A12 {
+    width: 140px ;
+    position:absolute;
+     top: 11px ;  
+     left: 820px ;
+}
+
+.opening{
+    width: 1170px ;
+    margin: 0 auto;
+    text-align: center ;
+    padding-bottom: 40px ;
+}
+
+.opSlideBtn{
+    width: 60% ;
+    height: 30px ;
+    margin: 0 auto ;
+}
+
+.slideBtn{
+    font-size: 20px ;
+    margin: 0px;
+}
+
+.slideBtn:hover{
+    cursor: pointer;
+}
+
+
+.prevBtn{
+    float: left;
+    display: none;
+}
+
+
+.nextBtn{
+    float: right;
+}
+
+.op{
+    width: 1170px ;
+    margin: 5px auto;
+}
+
+.op1{
+    width: 60% ;
+    display: none ;
+}
+
+.opActive{
+    display: inline-block ;
+}
+
+.opBtn{
+    width: 40% ;
+    margin: auto ;
+    display: flex ;
+}
+
+.opBtn p{
+    margin: auto;
+    background-color: gray;
+    box-shadow:0 4px rgb(55, 55, 55);
+}
+
+.greeting{
+    width: 1170px ;
+    margin: 0 auto ;
+}
+
+.A2 {
+    width: 500px ;
+    float:left;
+}
+
+.A3 {
+    font-size: 37px ;
+    line-height: 56px ;
+    text-align: left ;
+    padding: 50px 0px 50px 540px ;
+}
+
+.clear {
+    clear:left;
+}
+
+.bears {
+    width: 1170px ;
+    margin: 0 auto ;
+}
+
+.contents {
+    background-color: cornflowerblue;
+    margin: 50px 0px -30px 0px;
+}
+
+.contents h1 {
+    font-size: 30px ;
+    font-weight:normal;
+    padding-left: 50px ;
+    line-height: 60px ;
+    margin-bottom: 50px ;
+}
+
+.aimaru {
+  height: 270px ;
+  margin-bottom: 20px ;
+  background-color: rgb(202, 122, 122);
+  border-radius: 20px;
+}
+
+.B1 {
+    width: 200px ;
+    float:left;
+    padding: 20px 50px ;
+}
+
+.aimaru h2 {
+    color: white ;
+    background-color: red ;
+    display: inline-block ;
+    padding: 15px 20px 10px 20px ;
+    margin-left: 20px ;
+    line-height: 30px ;
+    text-align: center ;
+    border-radius: 10px;
+}
+
+.yumeanpan {
+    height: 270px ;
+    background-color: rgb(208, 153, 197) ;
+    border-radius: 20px;
+}
+
+.B2 {
+    width: 195px ;
+    float:left;
+    padding: 10px 40px 5px 60px ;
+}
+
+.yumeanpan h2 {
+    color: white ;
+    background-color: rgb(218, 47, 184) ;
+    display: inline-block ;
+    padding: 15px 20px 10px 20px ;
+    margin: 25px 0px 20px 25px ; 
+    line-height: 30px ;
+    text-align: center ;
+    border-radius: 10px;
+}
+
+ul {
+    margin-top: -10px ;
+}
+
+li {
+    list-style: none;
+    font-size: 22px ; 
+    padding-left: 270px ;
+    margin-top: 5px ;
+}
+
+.active {
+    width: 1170px ;
+    margin: 0 auto ;
+    height: 1000px ;
+}
+
+.youtube {
+    display:flex;
+    width: 1170px ;
+    margin: 0 auto;
+    margin-bottom: 30px ;
+}
+
+.sabtitle {
+    font-size: 30px ;
+    margin: 0px 0px 10px 50px;
+}
+
+.channel {
+    margin: 0px auto ;
+    text-align: center;
+    width: 360px ;
+}
+
+.CG {
+    width: 360px ; 
+}
+
+.CG:hover {
+    cursor: pointer;
+}
+
+.channel h4 {
+    font-size: 20px ;
+    margin: 15px 0px ;
+}
+
+.CP {
+    width: 310px ;
+    margin: 0 auto ;
+    text-align: left;
+    height: 70px ;
+}
+
+.Web {
+    width: 1170px ;
+    margin: 0 auto;
+    margin-bottom: 30px ;
+}
+
+.site {
+    text-align: center;
+    width: 360px ;
+    float:left;
+    margin: 0px 15px 0px 15px ;
+}
+
+.SG {
+    width: 202px ;
+}
+
+.SG:hover {
+    cursor: pointer;
+}
+
+.site h4 {
+    font-size: 20px ;
+    margin: 15px 0px ;
+}
+
+.SP1 {
+    width: 290px ;
+    margin: 0 auto ;
+    text-align: center;
+    height: 60px ;
+}
+
+.SP {
+    width: 290px ;
+    margin: 0 auto ;
+    text-align: left;
+    height: 60px ;
+}
+
+.button {
+    display:inline-block;
+    border-radius: 10px ;
+    color:white;
+    background-color: green;
+    opacity: 0.7 ;
+    padding: 10px 20px ;
+    box-shadow:0 4px rgb(75, 99, 75);
+    text-decoration: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 0.9 ;
+}
+
+.button:active {
+    box-shadow:none;
+    position: relative;
+     top: 4px ;
+}
+
+.QAback {
+    width: 1170px ;
+    margin: 0 auto;
+    background-color: pink;
+    padding: 20px 0px ; 
+    margin-bottom:  50px ;
+}
+
+.QA {
+    width: 60% ;
+    margin: 0 auto;
+    color: rgb(85, 85, 85);
+}
+
+.QA h5{
+    text-align: center;
+    font-size: 25px ;
+    color: black;
+}
+
+.Q{
+    margin-bottom:  40px ;
+    position:relative;
+    font-size: 20px ;
+    border-bottom: 2px solid #dee7ec ;
+    cursor: pointer;
+}
+
+
+.QA span{
+    position:absolute;
+     top : 0px;
+     right: 5px;
+}
+
+.answer{
+    display:none;
+    color: rgb(252, 46, 46);
+}
+
+.fight{
+    width: 1170px;
+    margin: auto;
+    text-align: center;
+    padding: 15px ;
+    margin-bottom: 30px;
+}
+
+.love-message{ 
+    width: 50%;
+    padding: 10px 0px ;
+    margin: 0px auto ;
+    background-color: rgb(133, 246, 133);
+    border: 2px solid rgb(97, 193, 97) ; ;
+}
+
+.fight h6{
+    font-size: 20px ;
+    margin: 0px ;    
+}
+
+.fight img{
+    width: 20% ;
+
+}
+
+.fight p{
+    font-size: 20px ;
+    margin:  5px auto;
+}
+
+.fight input{
+    width: 60px ;
+    text-align: center;
+}
+
+.love-p{
+    color: white;
+    background-color: rgb(255, 126, 147);    
+    border: 2px solid rgb(255, 88, 116) ;
+    line-height: 40px ;
+    width: 100px ;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+footer {
+    width: 1170px ;
+    margin: 0 auto ;
+    height: 130px ;
+    background-color:rgba(112, 111, 112,0.8);
+}
+
+.footer1 {
+    padding: 5px 0px 10px 100px;
+    color:white;
+}
+
+.footer1 p {
+    margin: 7px 10px ;
+    font-size: 18px ;
+}
+
+.account {
+    float:left;
+    color:white;
+    margin: 5px 5px ;
+    font-size: 18px ;
+    display: inline-block ;
+    padding: 10px ;
+    background-color: cornflowerblue ;
+    border-radius: 5px ;
+    text-decoration: none;
+}
+
+.account:hover {
+    cursor: pointer;
+}
