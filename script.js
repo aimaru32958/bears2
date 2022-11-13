@@ -54,7 +54,16 @@ $(function(){
       $('.love-p').css('width','500px');
     });
     
-
+　　$('H1').click(function(){
+      $('html,body').scrollTop(0);
+    });
     
+    
+    $('.H2').click(function(){
+      const id = $(this).attr('href');
+      const position = $(id).offset().top;
+      $('html, body').scrollTop(position);
+    });
+  
 
 });
