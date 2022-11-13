@@ -54,7 +54,7 @@ $(function(){
       $('.love-p').css('width','500px');
     });
     
-　　$('H1').click(function(){
+　　$('.H1').click(function(){
       $('html,body').scrollTop(0);
     });
     
